@@ -1,5 +1,5 @@
 .content-form{
-    padding-top: 10px;
+    padding-top: 10px !important;
 }
 .form-group-input{
     display: flex;
@@ -7,4 +7,19 @@
 }
 mat-form-field{
     width: 100%;
+}
+.margin-btn{
+    padding: 0px 25px 20px;
+}
+button{
+    flex: 1;
+}
+.mat-mdc-radio-button.mat-accent {
+    --mdc-radio-selected-focus-icon-color: #016a6d;
+    --mdc-radio-selected-hover-icon-color: #016a6d;
+    --mdc-radio-selected-icon-color: #016a6d;
+    --mdc-radio-selected-pressed-icon-color: #016a6d;
+    --mat-radio-ripple-color: black;
+    --mat-radio-checked-ripple-color: #016a6d;
+    --mat-radio-disabled-label-color: rgba(0, 0, 0, 0.38);
 }

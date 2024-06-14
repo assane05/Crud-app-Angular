@@ -1,0 +1,21 @@
+
+.btn-add-home{
+    float: right;
+}
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+}
+.main-body-table{
+    padding-top: 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+.center-content{
+    text-align: center;
+}
+
+

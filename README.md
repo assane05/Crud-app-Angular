@@ -2,9 +2,16 @@
 
 # Material ui
 
-    commande : ng add @angular/material
+ceci nous permet de faire un design parfait, l'utilisation des icones etc.
+commande : ng add @angular/material
 
-#
+# json server
+
+pour stocker les données nous avons besoin de créer un server local et pour se faire
+nous allons utiliser json server.
+pour l'installer, tapez la commande suivante :
+
+     npm i json-server
 
 # CrupApp
 

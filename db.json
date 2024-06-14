@@ -1,0 +1,26 @@
+{
+  "etudiants": [
+    {
+      "prenom": "mame cheikh",
+      "nom": "gueye",
+      "email": "assane@gmail.com",
+      "dob": "2024-06-05T00:00:00.000Z",
+      "genre": "Homme",
+      "nivEtude": "BFEM",
+      "university": "UCADFGG",
+      "competence": "Html, CSS, REACT js",
+      "id": "0639"
+    },
+    {
+      "id": "ee8d",
+      "prenom": "demba",
+      "nom": "gueye",
+      "email": "demba@gmail.com",
+      "dob": "2024-06-13T00:00:00.000Z",
+      "genre": "Homme",
+      "nivEtude": "Licence",
+      "university": "ugb",
+      "competence": "rien"
+    }
+  ]
+}
