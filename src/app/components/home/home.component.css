@@ -11,11 +11,17 @@ table {
 }
 .main-body-table{
     padding-top: 25px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
+    
+}
+.scrol-table-responsive{
+  overflow-x: auto;
 }
 .center-content{
     text-align: center;
 }
-
+.flex-icons{
+  display: flex;
+}
 

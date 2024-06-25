@@ -16,12 +16,13 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import { HeaderComponent } from './components/header/header.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AddEditComponent } from './components/add-edit/add-edit.component';
@@ -29,16 +30,17 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NotFoundComponent,
-    HeaderComponent,
     NavbarComponent,
     DashboardComponent,
     AddEditComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
@@ -60,6 +62,7 @@ import { MatSortModule } from '@angular/material/sort';
     MatPaginatorModule,
     MatSortModule,
     MatSnackBarModule,
+    MatSidenavModule,
   ],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
