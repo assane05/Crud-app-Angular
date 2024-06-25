@@ -32,17 +32,6 @@
       "nivEtude": "BFEM",
       "university": "UVS",
       "competence": "je n'ai pas de competence"
-    },
-    {
-      "id": "794c",
-      "prenom": "pathe",
-      "nom": "samb",
-      "email": "samba@gmail.com",
-      "dob": "2024-06-25T00:00:00.000Z",
-      "genre": "Homme",
-      "nivEtude": "Baccalaureat",
-      "university": "UGB",
-      "competence": "HTML, CSS, pyhton"
     }
   ]
 }
